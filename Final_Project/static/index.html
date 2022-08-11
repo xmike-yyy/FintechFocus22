@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keep</title>
+    <link rel="icon" href=static/images/keep.png>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+<!--  NAVBAR BELOW -->
+  <nav class="navbar navbar-expand-lg bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="static/images/keep.jpg" alt="" width="54" height="43.2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">More Resources</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--   NAV BAR ABOVE  -->
+  
+  <body>
+
+    
+    <h1 class="text-dark display-6 text-center" >Small Business Bookkeeping, Revolutionized.</h1>
+    
+    <br> <br>
+    <h3>Welcome back, Bananabees. Your financial profile needs updating.</h3>
+    <br><br>
+    
+    <!--  THIS IS OUR FORM -->
+<form method="POST" action="/myFinances">
+<label for="sales">Y4 Sales</label>
+<input type='number' name='sales'>
+<br>
+<label for="cogs">Y4 Cost of Goods Sold</label>
+<input type='number' name='cogs'>
+<br>
+<label for="operatingexpenses">Y4 Operating Expenses</label>
+<input type='number' name='operatingexpenses'>
+<br>
+<label for="depamor">Y4 Depreciation & Amortization</label>
+<input type='number' name='depamor'>
+<br>
+<label for="ebit">Y4 Interest Expense & Taxes</label>
+<input type='number' name='ebit'>
+<br>
+<input type="submit">
+</form>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
